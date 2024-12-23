@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: #ffffff;
+    font-family: 'Righteous', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: #77e23a; /* Couleur par défaut */
+}
+
+  a:visited {
+    color: #558b19; /* Couleur des liens visités */
+}
+
+  a:hover {
+    color: #88ff44; /* Couleur au survol */
+}
+
+  a:active {
+    color: #97ff5b; /* Couleur lorsqu'on clique */
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.content {
+    margin-top: 120px; /* Add space to account for fixed navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: calc(100vh - 120px);
+}
+
+p {
+    text-align: center;
+}
+
+.titre {
+    font-size: 2.5em; /*agrandir le texte*/
+    font-family: 'Righteous', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sous-titre {
+    font-size: 1.875em; /*agrandir le texte*/
+    font-family: 'Righteous', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.texte {
+    font-size: 1.18em; /*agrandir le texte*/
+    font-family: 'Righteous', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+li {
+    margin-bottom: 1em; /* Ajoute un espace d'environ une ligne */
+}
+footer {
+    color: #ffffff;
+}
